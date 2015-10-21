@@ -1,0 +1,25 @@
+.modal-content {
+	position:fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	visibility: hidden;
+	background-color: #2196F3;
+}
+
+.modal-content h1 {
+	text-align: center;
+	color: white;
+}
+
+/* Class that appends modal-content to make it visible */
+.is-visible {
+	visibility: visible;
+}
+
+/*Modal Close Button */
+.modal-close {
+	display:block;
+	margin: auto;
+}
